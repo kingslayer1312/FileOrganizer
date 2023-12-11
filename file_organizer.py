@@ -41,4 +41,4 @@ print(extensions)
 tool.createFolders(extensions)
 tool.moveFiles(files, extensions)
 
-print("Operation done")
+print("Operation completed.\n{} files have been organized into {} folders\n".format(len(files), len(os.listdir())))
